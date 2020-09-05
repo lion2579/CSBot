@@ -27,7 +27,7 @@ async def on_member_join(member):
     print(f"Recognized {member.name} joined a server on {datetime.datetime.now(datetime.timezone.utc)}.")
     await client.get_channel(CsBotInfo.getWelcomeID()).send(welcomeMessage.format(member.name))
 
-#
+#Help message will be updated along with additional functionalities.
 @client.event
 async def on_message(message):
     if message.author == client.user:
