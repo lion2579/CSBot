@@ -4,7 +4,7 @@ import datetime
 
 client = discord.Client()
 welcomeMessage = """
-Hi there {}, welcome to the server!.
+Hi there {}, welcome to the server!
 
 Check out the announcements section for important information.
 """
