@@ -33,7 +33,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content == ('!help'):
+    if message.content == ("!help"):
         await client.get_user(message.author.id).send("I don't do much yet. If you have any suggestions, bugs, or just need someone to talk to, send a message to UnicornBlood#9295.")
 
 client.run(CsBotInfo.getToken())
